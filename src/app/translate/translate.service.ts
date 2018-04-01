@@ -1,0 +1,6 @@
+export class TranslateService {
+    // This service should hold the language selected by the user...
+    // default to the navigator language and updated depending on the language
+    // of the post ...
+    language = "en";
+}
