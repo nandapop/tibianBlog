@@ -1,7 +1,32 @@
 <app-header></app-header>
 <div class="row">
-  <div class="col-lg-8">
-    <div class="container">
+  <div class="col col-lg-8">
+    <div class="container shadow-container">
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-faded navbar-fixed-img">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="assets/images/tibianlife.gif" class="image-logo">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" ui-sref="main">
+                    <img src="assets/images/parchment.png">
+                </a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                            <a class="nav-link text-martel" ui-sref="main">HOME 
+                                <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li routerLinkActive="active" class="nav-item">
+                        <a routerLink="/posts" class="nav-link text-martel">POSTS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-martel">
+                <a (click)="changeLang('es')">Español</a>
+                <a (click)="changeLang('en')">English</a>
+            </div>
+        </nav>
       <router-outlet></router-outlet>
     </div>
   </div>
