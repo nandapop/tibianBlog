@@ -2,6 +2,12 @@
 body {
     background-image: url("images/1.jpg");
 }
+$white      :   #ffffff;
+$post_date_color    :   #F8F9FA;
+$px40       :   40px;
+$px20       :   20px;
+$px10       :   10px;
+
 
 /* martel-sans-regular - latin */
 @font-face {
@@ -29,4 +35,16 @@ body {
     padding-right: 10px;
     padding-bottom: 10px;
     @include box-shadow(3px, 3px, 5px, 6px,#12351F);
+}
+.shadow-container,.shadow-reply {
+    @include box-shadow(3px, 3px, 2px, 1px,#E27001);
+    margin-left: 10px;
+} 
+.text-martel {
+    font-family: Martel; 
+    font-size: 150%;
+    color: $white;
+}
+.navbar-light .navbar-nav .active > .nav-link,.color-menu-font,a{
+    color: $white;
 }
