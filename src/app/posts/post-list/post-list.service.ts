@@ -26,7 +26,7 @@ const choosingVocation: PostPreview = {
 const eligiendoVocacion: PostPreview = {
     title: "Eligiendo vocación",
     img: "",
-    summary: "En tibia es posible elegir 4 voaciones"
+    summary: "En tibia es posible elegir 4 vocaciones"
 }
 
 const posts = {
