@@ -1,0 +1,14 @@
+$px20       :   20px;
+.post-info {
+    margin: $px20;
+    margin-left: $px20;
+}
+p:first-child{ 
+    float: right;
+}
+.image-w {
+    height: 42px;
+    top: $px20;
+    left: 55px;
+    float: left;
+}
