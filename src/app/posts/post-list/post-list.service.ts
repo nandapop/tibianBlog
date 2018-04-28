@@ -9,24 +9,28 @@ export class PostListService {
 
 const adventureBegins: PostPreview = {
     title: "Adventure Begins",
-    img: "",
-    summary: "The adventure begins..."
+    img: "assets/images/posts/adventure-begins/tobias-the-tall.png",
+    summary: "If you have never heard about Tibia, is a MMORPG developed in 1997 by a group of students from Regensburg, Germany, thanks to the success of the game they were able to build a company around it name CipSoft...",
+    link: "adventure-begins"
 }
 const aventuraComienza: PostPreview = {
     title: "La aventura comienza",
     img: "",
-    summary: "La aventura comienza..."
+    summary: "La aventura comienza...",
+    link: "aventura-comienza"
 }
 
 const choosingVocation: PostPreview = {
     title: "Choosing Vocation",
-    img: "",
-    summary: "In tibia there are 4 vocations"
+    img: "assets/images/posts/choosing-vocation/unicorn.jpg",
+    summary: "In tibia there are 4 vocations",
+    link: "choosing-vocation"
 }
 const eligiendoVocacion: PostPreview = {
     title: "Eligiendo vocación",
     img: "",
-    summary: "En tibia es posible elegir 4 vocaciones"
+    summary: "En tibia es posible elegir 4 vocaciones",
+    link: "eligiendo-vocacion"
 }
 
 const posts = {

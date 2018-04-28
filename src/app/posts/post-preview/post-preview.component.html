@@ -1,5 +1,18 @@
-<div class="post-info">
+<!-- <div class="post-info">
         <img src="assets/images/w.gif" class="img-fluid image-w" alt="Welcome Tibia">
         <p>elcome to Tibianlife</p>
         In this blog I will describe the adventures of 'Tobias the Tall' and the challenge set for this year, to get premium account buying tibia coins with gold obtained exclusively in game.
+</div> -->
+
+<div class="card w-75">
+    <div class="card-header text-martel">
+        {{postPreview.title}}
     </div>
+  
+    <div class="card-block">
+        <a [routerLink]="postPreview.link" class="link-read-more"><img class="card-img-right flex-auto d-none d-lg-block thumbnail" [src]="postPreview.img" alt="post tibianlife"></a>
+        <p class="card-text"> {{postPreview.summary}} <a [routerLink]="postPreview.link" class="link-read-more">Read More</a> </p>      
+    </div>
+  
+</div>
+<br><br>

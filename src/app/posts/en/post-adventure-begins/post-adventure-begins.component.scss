@@ -1,0 +1,46 @@
+$blue       : #007bff;
+$light-blue : #5eadde;
+
+@mixin blockquote-param ($color,$font,$line,$margin,$vertical){
+    color: $blue;
+    font-size: $font;
+    line-height: $line;
+    margin-right: $margin;
+    vertical-align: $vertical;
+}
+a {
+    color: $blue;
+    text-decoration: none;
+}
+blockquote {
+    font-size: 1rem;
+}
+blockquote {
+    //background: #f9f9f9;
+    //border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D";
+}
+blockquote:before {
+    content: open-quote;
+    @include blockquote-param($light-blue,4em,0.1em,0.25,-0.4em);
+}
+blockquote p {
+    display: inline;
+}
+blockquote:after {
+    content: open-quote;
+    @include blockquote-param($light-blue,4em,0.1em,0.25,-0.4em);
+}
+.center-image {
+   // margin: 0 auto;
+   text-align: center;
+}
+
+.image-w {
+    height: 42px;
+    top: 20px;
+    left: 55px;
+    float: left;
+}

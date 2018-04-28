@@ -1,4 +1,30 @@
 $px20       :   20px;
+$px10       :   10px;
+$px0        :   0px;
+$px180      :   180px;
+$heightImg  :   42px;
+$leftImg    :   55px;
+$green      : #273C20;
+
+.card-header {
+    padding-top: $px0;
+    padding-bottom: $px0;
+    background-image: url("assets/images/header-color.png");
+   // background: #273C20;
+}
+.card-text {
+    margin-left: $px20;
+    margin-top: $px20;
+}
+.card {
+    background-image: url("assets/images/background-card.png");
+}
+.card-block {
+    border: 4px solid rgba(0,0,0,.125)
+}
+.margin-top {
+    margin-top : $px20;
+}
 .post-info {
     margin: $px20;
     margin-left: $px20;
@@ -7,8 +33,21 @@ p:first-child{
     float: right;
 }
 .image-w {
-    height: 42px;
+    height: $heightImg;
     top: $px20;
-    left: 55px;
+    left: $leftImg;
     float: left;
+}
+.thumbnail {
+    width: $px180;
+    height: $px180;
+    margin-right: $px10;
+    margin-top: $px10 ;
+    padding-bottom: $px10 ;
+    float: right;
+}
+.link-read-more {
+    color: $green;
+    text-decoration: none;
+    font-weight: bold;
 }
