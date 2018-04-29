@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url("assets/images/background-Tibianlife.jpg");
+    background-image: url("assets/css-images/background-Tibianlife.jpg");
 }
 $white              :   #ffffff;
 $post_date_color    :   #F8F9FA;
@@ -14,13 +14,13 @@ $px10               :   10px;
     font-family: 'Martel Sans';
     font-style: normal;
     font-weight: 400;
-    src: url('fonts/martel-sans-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('assets/fonts/martel-sans-v4-latin-regular.eot'); /* IE9 Compat Modes */
     src: local('Martel Sans Regular'), local('MartelSans-Regular'),
-         url('fonts/martel-sans-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/martel-sans-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/martel-sans-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('fonts/martel-sans-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('fonts/martel-sans-v4-latin-regular.svg#MartelSans') format('svg'); /* Legacy iOS */
+         url('assets/fonts/martel-sans-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/martel-sans-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/martel-sans-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/martel-sans-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/martel-sans-v4-latin-regular.svg#MartelSans') format('svg'); /* Legacy iOS */
 }
 
 @mixin box-shadow($horiz, $vert, $blur, $spread, $color){

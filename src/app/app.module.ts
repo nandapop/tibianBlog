@@ -19,6 +19,7 @@ import { PostEligiendoVocacionComponent } from './posts/es/post-eligiendo-vocaci
 import { PostListService } from './posts/post-list/post-list.service';
 import { PostFooterComponent } from './posts/post-footer/post-footer.component';
 import { PostRatingComponent } from './posts/post-rating/post-rating.component';
+import { TranslatePipe } from './translate/translate.pipe';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { PostRatingComponent } from './posts/post-rating/post-rating.component';
     PostAventuraComienzaComponent,
     PostEligiendoVocacionComponent,
     PostFooterComponent,
-    PostRatingComponent
+    PostRatingComponent,
+    TranslatePipe
   ],
   imports: [
     BrowserModule,

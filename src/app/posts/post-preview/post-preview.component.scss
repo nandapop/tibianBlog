@@ -9,15 +9,14 @@ $green      : #273C20;
 .card-header {
     padding-top: $px0;
     padding-bottom: $px0;
-    background-image: url("assets/images/header-color.png");
-   // background: #273C20;
+    background-image: url("../../../assets/css-images/header-color.png");
 }
 .card-text {
     margin-left: $px20;
     margin-top: $px20;
 }
 .card {
-    background-image: url("assets/images/background-card.png");
+    background-image: url("../../../assets/css-images/background-card.png");
 }
 .card-block {
     border: 4px solid rgba(0,0,0,.125)
