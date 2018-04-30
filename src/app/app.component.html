@@ -13,18 +13,22 @@
                     <img src="assets/images/parchment.png">
                 </a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                            <a class="nav-link text-martel" ui-sref="main">HOME 
-                                <span class="sr-only">(current)</span></a>
-                    </li>
                     <li routerLinkActive="active" class="nav-item">
                         <a routerLink="/posts" class="nav-link text-martel">POSTS</a>
                     </li>
                 </ul>
             </div>
-            <div class="text-martel" id="language-selection">
-                <a (click)="changeLang('es')">Español</a>
-                <a (click)="changeLang('en')">English</a>
+            <!-- <div class="text-martel" id="language-selection">
+                <a (click)="changeLang('es')">Es<img src="assets/images/cl.png" class="image-flag img-fluid"></a>
+                <a (click)="changeLang('en')">En<img src="assets/images/uk.png" class="image-flag img-fluid"></a>
+                
+            </div> -->
+            <div ngbDropdown class="d-inline-block text-martel" id="language-selection">
+                <a class="btn btn-outline-primary" id="dropdownBasic1"ngbDropdownToggle>Language</a>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <a (click)="changeLang('es')" class="dropdown-item">Es <img src="assets/images/cl.png" class="image-flag img-fluid"></a>
+                    <a (click)="changeLang('en')" class="dropdown-item">En <img src="assets/images/uk.png" class="image-flag img-fluid"></a> 
+                </div>
             </div>
         </nav>
       <router-outlet></router-outlet>

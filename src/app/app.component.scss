@@ -1,12 +1,26 @@
 #language-selection a {
     cursor: pointer;
+    border-color: transparent;
+    min-width: 6.5rem;
+    background-color:transparent;
+    font-size: 100%;
+}
+.dropdown-menu.show  a:hover {
+    background-color: #A37D54
 }
 
+.dropdown-menu {
+    background-color: transparent;
+    border: 1px solid #E07930;
+}
 .image-logo {
     width: 400px;
     position: absolute;
     top: -60px;
     left: 10px;
+}
+.image-flag {
+    width: 30px;
 }
 .navbar-fixed-img {
     bottom: 55px;
