@@ -15,21 +15,21 @@ const adventureBegins: PostPreview = {
 }
 const aventuraComienza: PostPreview = {
     title: "La aventura comienza",
-    img: "",
-    summary: "La aventura comienza...",
+    img: "assets/images/posts/adventure-begins/tobias-the-tall.png",
+    summary: "Si tu nunca has escuchado acerca de Tibia, es un MMORPG desarrollado en 1997 por un grupo de estudiantes de Regenburg, Alemania, gracias al éxito del juego ellos fueron capaces de construir una compañía con el nombre de CipSoft...",
     link: "aventura-comienza"
 }
 
 const choosingVocation: PostPreview = {
     title: "Choosing Vocation",
     img: "assets/images/posts/choosing-vocation/unicorn.jpg",
-    summary: "In tibia there are 4 vocations",
+    summary: "In tibia there are 4 vocations...",
     link: "choosing-vocation"
 }
 const eligiendoVocacion: PostPreview = {
     title: "Eligiendo vocación",
-    img: "",
-    summary: "En tibia es posible elegir 4 vocaciones",
+    img: "assets/images/posts/choosing-vocation/unicorn.jpg",
+    summary: "En tibia es posible elegir 4 vocaciones...",
     link: "eligiendo-vocacion"
 }
 

@@ -16,5 +16,7 @@ export class TranslatePipe implements PipeTransform {
 
 const translations = {
     "Example": { en: "Example", es: "Ejemplo" },
-    "Subscribe": { en: "Suscribe", es: "Suscribirse" }
+    "Subscribe": { en: "Suscribe", es: "Suscribirse" },
+    "ABOUT": { en: "ABOUT", es: "ACERCA DE"},
+    "Read More": {en: "Read More", es: "Leer Más"}
 }
