@@ -29,7 +29,7 @@ const choosingVocation: PostPreview = {
 const eligiendoVocacion: PostPreview = {
     title: "Eligiendo vocación",
     img: "assets/images/posts/choosing-vocation/unicorn.jpg",
-    summary: "En tibia es posible elegir 4 vocaciones...",
+    summary: "Luego de ingresar a tibia con mi nuevo personaje y superado el tutorial, decidi recorrer las cuatro profesiones que son posible probar en Dawnport comenzando con el paladin y finalmente quedandome con el...",
     link: "eligiendo-vocacion"
 }
 
